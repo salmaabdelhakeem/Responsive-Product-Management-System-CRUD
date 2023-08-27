@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link type="text/css" rel="stylesheet" href="../products with js/css/bootstrap.min.css">
+
+<link type="text/css" rel="stylesheet" href="../products with js/css/style.css">
+
+</head>
+<body>
+<div class="mx-auto my-5 " id="formsubpro" style="width:75%;">
+    <input name="productName" id="PName" placeholder="product name" class="form form-control my-2">
+
+    <input name="productPrice" id="PPrice" placeholder="product price" class="form form-control my-2">
+    <input name="productCat" id="PCat" placeholder="product Category" class="form form-control my-2">
+    <input name="productDes" id="PDesc" placeholder="product Description" class="form form-control my-2">
+
+ <div id="form-sub"><button type="submit" class="btn btn-primary" onclick="addproduct()" >submit</button>  </div> 
+
+
+</div>
+
+
+<div class="m-auto" style="width: 75%;">
+    <input type="search" class="form form-control w-75   m-auto" placeholder="search..." onkeyup="testtt(this.value)">
+<table class="table my-5">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>price</th>
+            <th>category</th>
+            <th>Description</th>
+            <th>update</th>
+            <th>delete</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+       
+    </tbody>
+
+</table>
+</div>
+
+    <script src="../products with js/js/bootstrap.bundle.min.js"></script>
+    <script src="../products with js/js/main.js"></script>
+</body>
+</html>
